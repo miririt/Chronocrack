@@ -1,0 +1,30 @@
+{
+    "background": {
+        "dir": "img/bg/forest",
+        "scrollSpeed": 0.05,
+        "layer": [
+            { "src": "Layer_0010_1.png", "zIndex": 1 },
+            { "src": "Layer_0009_2.png", "zIndex": 2 },
+            { "src": "Layer_0008_3.png", "zIndex": 3 },
+            { "src": "Layer_0007_Lights.png", "zIndex": 4 },
+            { "src": "Layer_0006_4.png", "zIndex": 5 },
+            { "src": "Layer_0005_5.png", "zIndex": 6 },
+            { "src": "Layer_0004_Lights.png", "zIndex": 7 },
+            { "src": "Layer_0003_6.png", "zIndex": 8 },
+            { "src": "Layer_0002_7.png", "zIndex": 9 },
+            { "src": "Layer_0001_8.png", "zIndex": 10 },
+            { "src": "Layer_0000_9.png", "zIndex": 11 }
+        ]
+    },
+    "bgm": {
+        "list": [
+            "audio/bgm/intro/morning-bird.mp3",
+            "audio/bgm/intro/forest-bird.mp3",
+            "audio/bgm/intro/cricket.mp3"
+        ],
+        "options": {
+            "startsWith": 0,
+            "shuffle": false
+        }
+    }
+}

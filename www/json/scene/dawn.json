@@ -1,0 +1,23 @@
+{
+    "background": {
+        "dir": "img/bg/dawn",
+        "scrollSpeed": 0.05,
+        "layer": [
+            { "src": "1.png", "zIndex": 1 },
+            { "src": "2.png", "zIndex": 2 },
+            { "src": "3.png", "zIndex": 3 },
+            { "src": "4.png", "zIndex": 4 },
+            { "src": "5.png", "zIndex": 5 },
+            { "src": "6.png", "zIndex": 6 },
+            { "src": "7.png", "zIndex": 7 },
+            { "src": "8.png", "zIndex": 8 }
+        ]
+    },
+    "bgm": {
+        "list": [],
+        "options": {
+            "startsWith": 0,
+            "shuffle": false
+        }
+    }
+}
