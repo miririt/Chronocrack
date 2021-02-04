@@ -1,7 +1,7 @@
 
 HTMLAudioElement.prototype.stop = function() {
-    this.pause();
-    this.currentTime = 0;
+  this.pause();
+  this.currentTime = 0;
 };
 
 HTMLAudioElement.prototype.replay = function() {

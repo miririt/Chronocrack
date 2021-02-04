@@ -14,7 +14,7 @@ export default class GameManager {
     // resize window.
     nw.Window.get().resizeTo(~~(windowData.width / this._dpr), ~~(windowData.height / this._dpr));
     
-    this.app = new PIXI.Application({ backgroundColor: 0xffffff });
+    this.app = new PIXI.Application({ width: 1920, height: 1080, backgroundColor: 0xffffff });
 
     gameWindow.document.body.appendChild(this.app.view);
   }

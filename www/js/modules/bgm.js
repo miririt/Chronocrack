@@ -15,9 +15,9 @@ export default class BGM {
   }
 
   /**
-   * Add an sprite.
+   * Add an bgm.
    *
-   * Put target sprite into container.
+   * Put the target bgm into play queue.
    *
    * @param   {Array}   srcList             Background music information.
    * @param   {Object}  options             Backgroudn music option.
@@ -34,7 +34,6 @@ export default class BGM {
     if(this._shuffle) {
       this.next(this._bgmList.length);
     }
-    this.play();
   }
   
   _getCurrent() {

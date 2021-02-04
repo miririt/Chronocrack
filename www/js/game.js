@@ -7,8 +7,8 @@ async function init() {
   GameManager.init(window);
 
   const introScene = await GameManager.loadScene('intro');
-  const buildingScene = new Scene();
   const dawnScene = await GameManager.loadScene('dawn');
+  const buildingScene = new Scene();
 
   buildingScene.background.load('img/bg/city', 0.1, [
     { 'src': 'Sky-layer.png', 'zIndex': 1 },
