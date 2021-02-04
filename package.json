@@ -3,7 +3,7 @@
   "main": "www/index.html",
   "window": {
     "title": "Chrono Crack",
-    "width": 2560,
-    "height": 1600
+    "width": 1024,
+    "height": 768
   }
 }

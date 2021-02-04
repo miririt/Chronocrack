@@ -1,5 +1,5 @@
 
-import { AudioManager, GameManager } from '../managers/index.js';
+import { AudioManager, GameManager } from '../core/managers/index.js';
 
 export default class TextButton {
   constructor(text, options = { fontFamily : 'Georgia', fontSize: 24, fill : 0xffffff, dropShadow: true, dropShadowBlur: 6 }) {

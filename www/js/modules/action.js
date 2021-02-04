@@ -1,5 +1,5 @@
 
-import { GameManager, SceneManager } from '../managers/index.js';
+import { GameManager, SceneManager } from '../core/managers/index.js';
 
 export default class Action {
   /**

@@ -1,5 +1,5 @@
 
-import { AudioManager } from '../managers/index.js';
+import { AudioManager } from '../core/managers/index.js';
 
 export default class BGM {
 

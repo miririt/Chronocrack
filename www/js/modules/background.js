@@ -1,5 +1,5 @@
 
-import { GameManager } from '../managers/index.js';
+import { GameManager } from '../core/managers/index.js';
 
 export default class Background {
   /**

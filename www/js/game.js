@@ -1,7 +1,7 @@
 
-import { AudioManager, GameManager, SceneManager } from './modules/managers/index.js';
+import { GameManager, SceneManager } from './core/managers/index.js';
 
-import { Scene, TextButton } from './modules/classes/index.js';
+import { Scene, TextButton } from './modules/index.js';
 
 async function init() {
   GameManager.init(window);

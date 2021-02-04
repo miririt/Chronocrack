@@ -1,4 +1,4 @@
-import { Action, Scene } from "../classes/index.js";
+import { Action, Scene } from "../../modules/index.js";
 
 export default class GameManager {
   static app = null;
@@ -13,9 +13,8 @@ export default class GameManager {
 
     // resize window.
     nw.Window.get().resizeTo(~~(windowData.width / this._dpr), ~~(windowData.height / this._dpr));
-    nw.Window.get().setResizable(false);
     
-    this.app = new PIXI.Application({ backgroundColor: 0xffffff, resizeTo: gameWindow });
+    this.app = new PIXI.Application({ backgroundColor: 0xffffff });
 
     gameWindow.document.body.appendChild(this.app.view);
   }
